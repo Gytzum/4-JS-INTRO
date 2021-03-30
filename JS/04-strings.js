@@ -9,7 +9,7 @@ REKOMENDACIJOS:
 - viengubas - ir dvigubas naudoti, tik jei inicuojate tekstini kintamaji, vienoje linijoje.
 -backtikai - visi kiti atvejai t.y darbas su tekstais ir multi-line.
 const vardas = 'Petras';
-
+*/
 const pavarde = "Petraitis";
 
 // Cia yra vienguba kabute. (')
@@ -69,7 +69,3 @@ const headBack = `<head>
     <link rel="stylesheet" href="./css/reset.css">
 </head>`;
 console.log(headBack);
-
-
-
-
