@@ -47,15 +47,16 @@ const count2 = marks.length;
 const average2 = totalSum2 / count2 ; 
 console.log(average2);
 console.log('_____________________________');
+
 //alternatyva su JS ASSIGMENT OPERATORS
 const count3 = marks.length;
 let totalSum3 = 0; 
-const average3 = totalSum3 / marks.length ; 
 totalSum3 += marks[0];
 totalSum3 += marks[1];
 totalSum3 += marks[2];
 totalSum3 += marks[3];
 totalSum3 += marks[4];
+const average3 = totalSum3 / marks.length ; 
 console.log(average3);
 
 //Automatinis budas padaryti ta pati kad nereiktu rasyti pvz 4 
