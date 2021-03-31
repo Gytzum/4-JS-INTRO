@@ -31,7 +31,55 @@ console.log(arPasieksiuPalanga);
 
 // ternary operatoriau klausimas egzamine -
 
-const koksSkaicius = 2 > 3 
-    ?4 < 5 
-        ? 6 : 7 : 8;
-console.log(koksSkaicius);
+// atrodys sitaip const koksSkaicius = 2 > 3 ? 4 < 5 ? 6 : 7 : 8;
+const koksSkaicius =
+ 2 > 3 
+    ? 4 < 5 
+        ? 6 
+        : 7 
+    : 8;
+// console.log(koksSkaicius);
+
+// const koksSkaicius = false ? true ? false : true : false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
