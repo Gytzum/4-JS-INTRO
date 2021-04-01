@@ -39,4 +39,80 @@ console.log("Siandien yra: " + savaite[diena] + ' ' + hour + ':' + minute + ':' 
 
 // Nespeja ismesti rezultato nes paspaudus submit refreshina web.
 
-//------------------------------------
+ /*------------------------------------
+intervalo suma uzduociu rezultatai:
+1.
+a: 0 
+b: 10
+c: 5050
+d: 168069
+e: 0
+f:-2020
+
+ *///-------------------------
+console.log('------------');
+
+// const nuo = -70;
+// const iki = 30;
+// let i = 0;
+// for (x = nuo; x <= iki; x++) {
+//     i = x + i;
+//     console.log(x);
+// }
+// console.log('---------');
+// console.log(i);
+
+//arba gauss metodas sudeti i grupes po du tai 1-50 ir 51-101 tai 50 x 101 = 5050
+
+//2222222222222222222222222222222222222222
+
+// const a = 'abcdef';
+// console.log(a.length);
+
+// for (let i = a.length - 1 ; i >= 0; i--) {
+//     const x = a[i]
+//     console.log(x);
+// }
+console.log('------------');
+//333333333333333333333333333333
+const nuo = 0;
+const iki = 11;
+let b = 0;
+for (let i = nuo; i < iki; i++){
+    // console.log(i);
+    let a = i % 3;
+    
+    
+  if ( a == 0) { b + 1}
+
+console.log(a);
+}
+
+console.log('Skaiciu intervale tarp 0 ir 11, besidalijanciu be liekanos is 3 yra', b, 'vienetai');
+
+
+
+// const num1 = 9;
+// const div = 3;
+// const rem = num1 % div ;
+// console.log(rem);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

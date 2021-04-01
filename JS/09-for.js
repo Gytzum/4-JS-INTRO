@@ -52,3 +52,6 @@ const num1 = 13;
 const div = 3;
 const rem = num1 % div ;
 console.log(rem);
+
+
+
