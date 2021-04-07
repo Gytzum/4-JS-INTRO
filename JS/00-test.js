@@ -1,17 +1,17 @@
 // Kodas kuris isgauna dabartine diena bei laika.
 
-let today = new Date();
-let hour = today.getHours();
-let minute = today.getMinutes();
-let seconds = today.getSeconds();
-console.log(hour, minute, seconds);
+// let today = new Date();
+// let hour = today.getHours();
+// let minute = today.getMinutes();
+// let seconds = today.getSeconds();
+// console.log(hour, minute, seconds);
 
-let diena = today.getDay();
-let savaite = ['Sekmadienis', 'Pirmadienis', 'Antradienis', 'Treciadienis', 'Ketvirtadienis', 
-    'Penktadienis', 'Sestadienis' ];
-console.log(savaite[diena] );
+// let diena = today.getDay();
+// let savaite = ['Sekmadienis', 'Pirmadienis', 'Antradienis', 'Treciadienis', 'Ketvirtadienis', 
+//     'Penktadienis', 'Sestadienis' ];
+// console.log(savaite[diena] );
 
-console.log("Siandien yra: " + savaite[diena] + ' ' + hour + ':' + minute + ':' + seconds);
+// console.log("Siandien yra: " + savaite[diena] + ' ' + hour + ':' + minute + ':' + seconds);
 
 //-------------------------------------------------
 
@@ -55,7 +55,7 @@ console.log('------------');
 // const nuo = -70;
 // const iki = 30;
 // let i = 0;
-// for (x = nuo; x <= iki; x++) {
+// for (let x = nuo; x <= iki; x++) {
 //     i = x + i;
 //     console.log(x);
 // }
@@ -73,22 +73,22 @@ console.log('------------');
 //     const x = a[i]
 //     console.log(x);
 // }
-console.log('------------');
+// console.log('------------');
 //333333333333333333333333333333
-const nuo = 0;
-const iki = 11;
-let b = 0;
-for (let i = nuo; i < iki; i++){
-    // console.log(i);
-    let a = i % 3;
+// const nuo = 0;
+// const iki = 11;
+// let b = 0;
+// for (let i = nuo; i < iki; i++){
+//     // console.log(i);
+//     let a = i % 3;
     
     
-  if ( a == 0) { b + 1}
+//   if ( a === 0) { b + 1}
 
-console.log(a);
-}
+// console.log(a);
+// }
 
-console.log('Skaiciu intervale tarp 0 ir 11, besidalijanciu be liekanos is 3 yra', b, 'vienetai');
+// console.log('Skaiciu intervale tarp 0 ir 11, besidalijanciu be liekanos is 3 yra', b, 'vienetai');
 
 
 
@@ -96,16 +96,29 @@ console.log('Skaiciu intervale tarp 0 ir 11, besidalijanciu be liekanos is 3 yra
 // const div = 3;
 // const rem = num1 % div ;
 // console.log(rem);
+//444444444444444444444444444444444444444
+//Skaitmenu kiekis 
 
 
 
+//5555555555555555555555555555555555555555555
 
+// function isrinktiRaides(str, nStr) {
+//     // for (let i = 0; i<str.length; i++) {
 
+//     // }
+//     if (typeof str == 'string' ) {return 'Pirmasis kintamasis yra netinkamo tipo'}
+//     else if (str.length > 100 &&  str.length == 0) { 'Pirmojo kintamojo reikšmė yra netinkamo dydžio arba tuscias'}   
+//      else if(typeof nStr == 'number'){ }
+        
+    
+// }
 
-
-
-
-
+console.log(isrinktiRaides(''));
+console.log(isrinktiRaides('Hello'));
+console.log(isrinktiRaides(123));
+// console.log(isrinktiRaides('Hello'));
+// console.log(isrinktiRaides('Hello'));
 
 
 
